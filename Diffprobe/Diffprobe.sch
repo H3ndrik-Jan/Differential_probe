@@ -1,0 +1,152 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery BT?
+U 1 1 60EDF639
+P 1400 2350
+F 0 "BT?" H 1508 2396 50  0000 L CNN
+F 1 "Battery" H 1508 2305 50  0000 L CNN
+F 2 "" V 1400 2410 50  0001 C CNN
+F 3 "~" V 1400 2410 50  0001 C CNN
+	1    1400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:OPA2277 U?
+U 1 1 60EE0948
+P 5600 2550
+F 0 "U?" H 5600 2183 50  0000 C CNN
+F 1 "OPA2277" H 5600 2274 50  0000 C CNN
+F 2 "" H 5600 2550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2277.pdf" H 5600 2550 50  0001 C CNN
+	1    5600 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EEA9E9
+P 5600 2000
+F 0 "R?" V 5393 2000 50  0000 C CNN
+F 1 "450" V 5484 2000 50  0000 C CNN
+F 2 "" V 5530 2000 50  0001 C CNN
+F 3 "~" H 5600 2000 50  0001 C CNN
+	1    5600 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 2550 5950 2550
+Wire Wire Line
+	5950 2550 5950 2000
+Wire Wire Line
+	5950 2000 5750 2000
+Wire Wire Line
+	5450 2000 5200 2000
+Wire Wire Line
+	5200 2000 5200 2450
+Wire Wire Line
+	5200 2450 5300 2450
+Wire Wire Line
+	5200 2450 5100 2450
+Connection ~ 5200 2450
+$Comp
+L Device:R R?
+U 1 1 60EEB9DB
+P 4950 2450
+F 0 "R?" V 4743 2450 50  0000 C CNN
+F 1 "450" V 4834 2450 50  0000 C CNN
+F 2 "" V 4880 2450 50  0001 C CNN
+F 3 "~" H 4950 2450 50  0001 C CNN
+	1    4950 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EEC18B
+P 4950 2650
+F 0 "R?" V 5065 2650 50  0000 C CNN
+F 1 "450" V 5156 2650 50  0000 C CNN
+F 2 "" V 4880 2650 50  0001 C CNN
+F 3 "~" H 4950 2650 50  0001 C CNN
+	1    4950 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EEC4AA
+P 5200 2950
+F 0 "R?" H 5270 2996 50  0000 L CNN
+F 1 "450" H 5270 2905 50  0000 L CNN
+F 2 "" V 5130 2950 50  0001 C CNN
+F 3 "~" H 5200 2950 50  0001 C CNN
+	1    5200 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2650 5200 2650
+Wire Wire Line
+	5200 2800 5200 2650
+Connection ~ 5200 2650
+Wire Wire Line
+	5200 2650 5100 2650
+Wire Wire Line
+	5200 3100 5200 3150
+$Comp
+L power:GND #PWR?
+U 1 1 60EECF75
+P 5200 3150
+F 0 "#PWR?" H 5200 2900 50  0001 C CNN
+F 1 "GND" H 5205 2977 50  0000 C CNN
+F 2 "" H 5200 3150 50  0001 C CNN
+F 3 "" H 5200 3150 50  0001 C CNN
+	1    5200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EED4CA
+P 6400 2800
+F 0 "R?" H 6470 2846 50  0000 L CNN
+F 1 "R" H 6470 2755 50  0000 L CNN
+F 2 "" V 6330 2800 50  0001 C CNN
+F 3 "~" H 6400 2800 50  0001 C CNN
+	1    6400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60EEE047
+P 6400 3000
+F 0 "#PWR?" H 6400 2750 50  0001 C CNN
+F 1 "GND" H 6405 2827 50  0000 C CNN
+F 2 "" H 6400 3000 50  0001 C CNN
+F 3 "" H 6400 3000 50  0001 C CNN
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2950 6400 3000
+Wire Wire Line
+	6400 2650 6400 2550
+Wire Wire Line
+	6400 2550 5950 2550
+Connection ~ 5950 2550
+$Sheet
+S 7300 850  1200 650 
+U 60EEE67A
+F0 "Battery management" 50
+F1 "Battery.sch" 50
+$EndSheet
+$EndSCHEMATC
