@@ -1,0 +1,22 @@
+Circuit: * C:\Users\Hendrik-Jan\Documents\Kicad project files\Projecten\Diffprobe\Sim\Batteryswitch.asc
+
+WARNING: Less than two connections to node N006.  This node is used by D4.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Jul 24 16:50:26 2021
+Total elapsed time: 0.169 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2112
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 26
+fillins = 26
+solver = Normal
+Matrix Compiler1: 3.11 KB object code size  0.8/0.4/[0.2]
+Matrix Compiler2: 2.54 KB object code size  0.3/0.3/[0.2]
+

@@ -1,0 +1,27 @@
+* C:\Users\Hendrik-Jan\Documents\Kicad project files\Projecten\Diffprobe\Sim\Batteryswitch.asc
+M1 N002 N003 N001 N001 BSS84
+V1 N001 0 4 Rser=1
+V§BAT VBAT 0 3.7 Rser=1
+M2 N002 N004 VBAT VBAT BSS84
+D1 N004 N003 1N4148
+R1 VBAT N004 100K
+Q1 N004 N009 0 0 2N3904
+R2 N001 N005 100K
+R3 N009 N007 20K
+D2 N005 N004 1N4148
+VUSB N008 0 0
+C1 N001 0 10µ
+D3 N008 N007 1N4148
+D4 N006 N007 1N4148
+.model D D
+.lib C:\Users\Hendrik-Jan\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Hendrik-Jan\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Hendrik-Jan\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 0.001
+* The circuit acts as power switch and reduces leakage currents when the load is turned off.
+.backanno
+.end
