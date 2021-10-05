@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9-16-g1737927814)-1"
     },
-    "CreationDate":  "2021-07-23T22:07:44+02:00"
+    "CreationDate":  "2021-08-08T16:45:24+02:00"
   },
   "GeneralSpecs":
   {
@@ -19,8 +19,8 @@
     },
     "Size":
     {
-      "X": 84.903,
-      "Y": 84.903
+      "X": 102.525,
+      "Y": 31.125
     },
     "LayerNumber": 4,
     "BoardThickness":  1.600
@@ -33,16 +33,16 @@
       "PadToTrack":  0.127,
       "TrackToTrack":  0.127,
       "MinLineWidth":  0.127,
-      "TrackToRegion":  0.300,
-      "RegionToRegion":  0.300
+      "TrackToRegion":  0.255,
+      "RegionToRegion":  0.255
     },
     {
       "Layers": "Inner",
       "PadToPad":  0.127,
       "PadToTrack":  0.127,
       "TrackToTrack":  0.127,
-      "TrackToRegion":  0.300,
-      "RegionToRegion":  0.300
+      "TrackToRegion":  0.255,
+      "RegionToRegion":  0.255
     }
   ],
   "FilesAttributes":

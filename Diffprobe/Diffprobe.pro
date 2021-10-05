@@ -1,4 +1,4 @@
-update=18-7-2021 13:26:03
+update=26-9-2021 21:48:41
 version=1
 last_client=kicad
 [general]
@@ -30,9 +30,13 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.127
 TrackWidth2=0.13
-TrackWidth3=0.2
-TrackWidth4=0.3
-TrackWidth5=0.4
+TrackWidth3=0.147
+TrackWidth4=0.2
+TrackWidth5=0.3
+TrackWidth6=0.4
+TrackWidth7=0.5
+TrackWidth8=0.6
+TrackWidth9=0.8
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -240,3 +244,24 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Microstrip
+Clearance=0.2
+TrackWidth=0.147
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
