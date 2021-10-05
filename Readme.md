@@ -6,4 +6,4 @@ More details: https://hackaday.io/project/181410-battery-powered-differential-pr
 ![alt text](https://github.com/H3ndrik-Jan/Diffprobe/blob/master/Measurements/Pictures/IMG2.JPG)
 
 # 1Hz-950KHz transfer + THD:
-![alt text](https://github.com/H3ndrik-Jan/Diffprobe/blob/master/Measurements/Pictures/0-1meg.JPG)
+![alt text](https://github.com/H3ndrik-Jan/Diffprobe/blob/master/Measurements/0-1meg.JPG)
